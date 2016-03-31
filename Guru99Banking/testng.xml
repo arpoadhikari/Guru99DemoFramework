@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test_Suite" parallel="none">
+  <test name="UI_Tests">
+  	<listeners>
+		<listener class-name="com.guru99.utils.TestNG_Listener" />
+	</listeners>
+    <classes>
+      <class name="com.guru99.Tests.UI_Tests.Login_Form"/>
+    </classes>
+  </test> <!-- UI_Test -->
+</suite> <!-- Test_Suite -->

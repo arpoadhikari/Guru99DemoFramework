@@ -1,0 +1,15 @@
+2016-03-31 21:51:36,691 INFO  [Utilities.java] New FirefoxDriver instantiated 
+2016-03-31 21:51:41,634 INFO  [Utilities.java] Web application launched successfully 
+2016-03-31 21:51:41,886 INFO  **************************************************************************************** 
+2016-03-31 21:51:41,886 INFO  $$$$$$$$$$$$$$$$$$$$$            T92 --> Started          $$$$$$$$$$$$$$$$$$$$$$ 
+2016-03-31 21:51:41,975 INFO  [LoginPage.java] UserID input box is found on the Login Page 
+2016-03-31 21:51:42,028 INFO  [Login_Form.java] Blank text provided in the UserID input box 
+2016-03-31 21:51:42,056 INFO  [LoginPage.java] Password input box is found on the Login Page 
+2016-03-31 21:51:42,159 INFO  [Login_Form.java] Clicked on Password input box to switch the focus 
+2016-03-31 21:51:42,197 INFO  [LoginPage.java] UserId text message field is found on the Login Page 
+2016-03-31 21:51:42,218 INFO  [Login_Form.java] Got the message text for the UserID input box 
+2016-03-31 21:51:44,751 INFO  [Login_Form.java] Page refreshed 
+2016-03-31 21:51:44,755 INFO  [TestNG_Listener.java] Test T92 has PASSED 
+2016-03-31 21:51:47,505 INFO  XXXXXXXXXXXXXXXXXXXXXXX          T92 --> Ended            XXXXXXXXXXXXXXXXXXXXXX 
+2016-03-31 21:51:47,505 INFO  **************************************************************************************** 
+2016-03-31 21:51:48,147 INFO  [Utilities.java] Web application closed successfully 
