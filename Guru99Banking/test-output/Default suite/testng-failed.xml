@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.guru99.Tests.UI_Tests.Login_Form">
+        <methods>
+          <include name="tear_down"/>
+          <include name="T93"/>
+          <include name="endTestMethod"/>
+          <include name="init"/>
+          <include name="startTestMethod"/>
+        </methods>
+      </class> <!-- com.guru99.Tests.UI_Tests.Login_Form -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
