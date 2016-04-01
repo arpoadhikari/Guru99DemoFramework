@@ -47,8 +47,6 @@ public class BaseTest {
 	@AfterMethod
 	public void endTestMethod(Method method) {
 		Log.endTestCase(testMethodName);
-		if (!driver.getTitle().equalsIgnoreCase("Guru99 Bank Home Page")) {
-			
-		}
+
 	}
 }

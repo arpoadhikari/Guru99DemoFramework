@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Test_Suite]" parallel="none">
+<suite name="Failed suite [Test_Suite]">
   <listeners>
     <listener class-name="com.guru99.utils.TestNG_Listener"/>
   </listeners>
-  <test name="UI_Tests(failed)" parallel="none">
+  <test name="UI_Tests(failed)">
     <classes>
-      <class name="com.guru99.Tests.UI_Tests.Login_Form">
-        <methods>
-          <include name="endTestMethod"/>
-          <include name="init"/>
-          <include name="startTestMethod"/>
-        </methods>
-      </class> <!-- com.guru99.Tests.UI_Tests.Login_Form -->
       <class name="com.guru99.Tests.UI_Tests.BalanceEnquiry_Form">
         <methods>
-          <include name="endTestMethod"/>
           <include name="T31"/>
-          <include name="startTestMethod"/>
+          <include name="T30"/>
+          <include name="init"/>
         </methods>
       </class> <!-- com.guru99.Tests.UI_Tests.BalanceEnquiry_Form -->
+      <class name="com.guru99.Tests.UI_Tests.Login_Form">
+        <methods>
+          <include name="startTestMethod"/>
+          <include name="endTestMethod"/>
+        </methods>
+      </class> <!-- com.guru99.Tests.UI_Tests.Login_Form -->
     </classes>
   </test> <!-- UI_Tests(failed) -->
 </suite> <!-- Failed suite [Test_Suite] -->
