@@ -4,6 +4,7 @@ import java.io.File;
 import java.util.Date;
 
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -18,6 +19,7 @@ import org.openqa.selenium.JavascriptExecutor;
 public class Utilities {
 
 	static WebDriver driver = null;
+	static WebDriverWait wait = null;
 	
 	// Launch the browser
 	public static WebDriver startBrowser(String browserName, String url) {
@@ -70,18 +72,18 @@ public class Utilities {
 	}
 	
 	// Wait for WebElement
-	public static void waitForElement(WebElement element) {
+	public static WebElement waitForElement(WebElement element) {
 		 
-		 WebDriverWait wait = new WebDriverWait(driver, 10);
-	     wait.until(ExpectedConditions.visibilityOf(element));
+		 wait = new WebDriverWait(driver, 10);
+	     return wait.until(ExpectedConditions.visibilityOf(element));
 	     
 	 }
 	
 	// Wait for Alert
-	public static void waitForAlert() {
+	public static Alert waitForAlert() {
 			 
-		WebDriverWait wait = new WebDriverWait(driver, 10);
-		wait.until(ExpectedConditions.alertIsPresent());
+		wait = new WebDriverWait(driver, 10);
+		return wait.until(ExpectedConditions.alertIsPresent());
 		     
 	}
 	

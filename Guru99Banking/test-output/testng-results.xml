@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Test_Suite" duration-ms="17484" started-at="2016-04-01T09:08:44Z" finished-at="2016-04-01T09:09:01Z">
+  <suite name="Test_Suite" duration-ms="17844" started-at="2016-04-01T13:33:41Z" finished-at="2016-04-01T13:33:59Z">
     <groups>
     </groups>
-    <test name="UI_Tests" duration-ms="17484" started-at="2016-04-01T09:08:44Z" finished-at="2016-04-01T09:09:01Z">
+    <test name="UI_Tests" duration-ms="17844" started-at="2016-04-01T13:33:41Z" finished-at="2016-04-01T13:33:59Z">
       <class name="com.guru99.Tests.UI_Tests.Login_Form">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.guru99.Tests.UI_Tests.Login_Form@175c2241]" name="init" is-config="true" duration-ms="13303" started-at="2016-04-01T14:38:44Z" finished-at="2016-04-01T14:38:57Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.guru99.Tests.UI_Tests.Login_Form@34e9fd99]" name="init" is-config="true" duration-ms="10299" started-at="2016-04-01T19:03:41Z" finished-at="2016-04-01T19:03:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="startTestMethod(java.lang.reflect.Method)[pri:0, instance:com.guru99.Tests.UI_Tests.Login_Form@175c2241]" name="startTestMethod" is-config="true" duration-ms="1" started-at="2016-04-01T14:38:57Z" finished-at="2016-04-01T14:38:57Z">
+        <test-method status="PASS" signature="startTestMethod(java.lang.reflect.Method)[pri:0, instance:com.guru99.Tests.UI_Tests.Login_Form@34e9fd99]" name="startTestMethod" is-config="true" duration-ms="15" started-at="2016-04-01T19:03:51Z" finished-at="2016-04-01T19:03:51Z">
           <params>
             <param index="0">
               <value>
@@ -22,11 +22,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTestMethod -->
-        <test-method status="PASS" signature="T92()[pri:0, instance:com.guru99.Tests.UI_Tests.Login_Form@175c2241]" name="T92" duration-ms="2469" started-at="2016-04-01T14:38:57Z" finished-at="2016-04-01T14:38:59Z">
+        <test-method status="PASS" signature="T92()[pri:0, instance:com.guru99.Tests.UI_Tests.Login_Form@34e9fd99]" name="T92" duration-ms="4661" started-at="2016-04-01T19:03:51Z" finished-at="2016-04-01T19:03:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- T92 -->
-        <test-method status="PASS" signature="endTestMethod(java.lang.reflect.Method)[pri:0, instance:com.guru99.Tests.UI_Tests.Login_Form@175c2241]" name="endTestMethod" is-config="true" duration-ms="0" started-at="2016-04-01T14:39:00Z" finished-at="2016-04-01T14:39:00Z">
+        <test-method status="PASS" signature="endTestMethod(java.lang.reflect.Method)[pri:0, instance:com.guru99.Tests.UI_Tests.Login_Form@34e9fd99]" name="endTestMethod" is-config="true" duration-ms="17" started-at="2016-04-01T19:03:58Z" finished-at="2016-04-01T19:03:59Z">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTestMethod -->
-        <test-method status="PASS" signature="tear_down()[pri:0, instance:com.guru99.Tests.UI_Tests.Login_Form@175c2241]" name="tear_down" is-config="true" duration-ms="619" started-at="2016-04-01T14:39:00Z" finished-at="2016-04-01T14:39:01Z">
+        <test-method status="PASS" signature="tear_down()[pri:0, instance:com.guru99.Tests.UI_Tests.Login_Form@34e9fd99]" name="tear_down" is-config="true" duration-ms="465" started-at="2016-04-01T19:03:59Z" finished-at="2016-04-01T19:03:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear_down -->

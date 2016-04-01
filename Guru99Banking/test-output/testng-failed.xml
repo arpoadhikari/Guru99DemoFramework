@@ -8,13 +8,18 @@
     <classes>
       <class name="com.guru99.Tests.UI_Tests.Login_Form">
         <methods>
-          <include name="tear_down"/>
-          <include name="T93"/>
           <include name="endTestMethod"/>
           <include name="init"/>
           <include name="startTestMethod"/>
         </methods>
       </class> <!-- com.guru99.Tests.UI_Tests.Login_Form -->
+      <class name="com.guru99.Tests.UI_Tests.BalanceEnquiry_Form">
+        <methods>
+          <include name="endTestMethod"/>
+          <include name="T31"/>
+          <include name="startTestMethod"/>
+        </methods>
+      </class> <!-- com.guru99.Tests.UI_Tests.BalanceEnquiry_Form -->
     </classes>
   </test> <!-- UI_Tests(failed) -->
 </suite> <!-- Failed suite [Test_Suite] -->

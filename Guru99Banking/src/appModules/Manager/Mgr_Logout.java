@@ -8,12 +8,10 @@ public class Mgr_Logout {
 	
 	public static void execute() {
 		
-		Utilities.waitForElement(Mgr_HomePage.logOut_link());
-		Mgr_HomePage.logOut_link().click();
+		Utilities.waitForElement(Mgr_HomePage.logOut_link()).click();
 		Log.info("[Mgr_Logout.java] Clicked on Logout link");
 		
-		Utilities.waitForAlert();
-		Mgr_HomePage.logOut_alert().accept();
+		Utilities.waitForAlert().accept();
 		Log.info("[Mgr_Logout.java] Accepted the Logout alert");
 	}
 

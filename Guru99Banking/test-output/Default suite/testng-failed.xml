@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.guru99.Tests.UI_Tests.Login_Form">
+      <class name="com.guru99.Tests.UI_Tests.BalanceEnquiry_Form">
         <methods>
           <include name="tear_down"/>
-          <include name="T93"/>
           <include name="endTestMethod"/>
           <include name="init"/>
+          <include name="T30"/>
           <include name="startTestMethod"/>
         </methods>
-      </class> <!-- com.guru99.Tests.UI_Tests.Login_Form -->
+      </class> <!-- com.guru99.Tests.UI_Tests.BalanceEnquiry_Form -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

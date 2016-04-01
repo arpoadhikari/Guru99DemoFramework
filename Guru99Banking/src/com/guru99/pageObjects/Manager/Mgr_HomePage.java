@@ -29,6 +29,19 @@ public class Mgr_HomePage extends BasePage{
 		return element;
 	}
 	
+	// Building WebElement for BalanceEnquiry link
+	public static WebElement balEnquiry_link() {
+		try {
+			element_location = ReadPropertiesFile.getValue(Constants.UI_map_path, "mgr_home_balEnquiry_link_xpath");
+			element = driver.findElement(By.xpath(element_location));
+			Log.info("[Mgr_HomePage.java] BalanceEnquiry link is found on the Managers Home Page");
+			} catch (Exception e) {
+				Log.error("[Mgr_HomePage.java] BalanceEnquiry link is not found on the Managers Home Page");
+				e.printStackTrace();
+			}
+		return element;
+	}
+	
 	// Building WebElement for Logout link
 	public static Alert logOut_alert() {
 		try {

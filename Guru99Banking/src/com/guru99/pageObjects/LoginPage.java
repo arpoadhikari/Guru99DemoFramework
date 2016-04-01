@@ -10,9 +10,6 @@ import com.guru99.utils.ReadPropertiesFile;
 
 public class LoginPage extends BasePage{
 	
-	static WebElement element = null;
-	static String element_location = null;
-	
 	public LoginPage(WebDriver driver){
 		super(driver);
 	}
