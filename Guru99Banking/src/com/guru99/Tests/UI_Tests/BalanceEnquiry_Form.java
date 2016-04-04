@@ -15,7 +15,7 @@ import com.guru99.utils.Utilities;
 public class BalanceEnquiry_Form extends BaseTest{
 	
 	// Account No. must not be blank
-	@Test  (enabled = true)
+	@Test
 	public void T30() {
 		Mgr_Login.execute();
 		Log.info("[BalanceEnquiry_Form.java] Logged in as manager");
@@ -30,24 +30,18 @@ public class BalanceEnquiry_Form extends BaseTest{
 		expected_msg = Utilities.getExpectedMsg(testMethodName);
 		Log.info("[BalanceEnquiry_Form.java] Got the expected message text for the Account No. input box");
 		Assert.assertEquals(actual_msg, expected_msg, "Expected message for blank Account No. didn't come.");
-		Mgr_Logout.execute();
-		Log.info("[BalanceEnquiry_Form.java] Logged out from manager");
 	}
 	
-	@Test (enabled = true)
+	@Test
 	public void T31() {
 		Mgr_Login.execute();
 		Log.info("[BalanceEnquiry_Form.java] Logged in as manager");
-		Mgr_Logout.execute();
-		Log.info("[BalanceEnquiry_Form.java] Logged out from manager");
 	}
 	
-	@Test  (enabled = false)
+	@Test
 	public void T32() {
 		Mgr_Login.execute();
 		Log.info("[BalanceEnquiry_Form.java] Logged in as manager");
-		Mgr_Logout.execute();
-		Log.info("[BalanceEnquiry_Form.java] Logged out from manager");
 	}
 
 }

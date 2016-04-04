@@ -157,4 +157,15 @@ public class Utilities {
 		return exp_msg;
 	}
 	
+	public static String chk_LoginStatus() {
+		String user = null;
+		if (driver.getCurrentUrl().contains("manager")) {
+			user = "manager";
+		}
+		else if (driver.getCurrentUrl().contains("customer")) {
+			user = "customer";
+		}
+		return user;
+	}
+	
 }

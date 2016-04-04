@@ -18,7 +18,7 @@ import com.guru99.utils.Utilities;
 //@Listeners(com.guru99.utils.TestNG_Listener.class)
 public class BaseTest {
 	
-	public WebDriver driver = null;
+	public WebDriver dr = null;
 	public ExcelUtil excel = null;
 	public String actual_msg = null;
 	public String expected_msg = null;
@@ -28,8 +28,8 @@ public class BaseTest {
 	@BeforeTest
 	public void init() throws Exception {
 		DOMConfigurator.configure(Constants.Log4j_xml_path);
-		driver = Utilities.startBrowser("firefox", Constants.URL);
-		new BasePage(driver);
+		dr = Utilities.startBrowser("firefox", Constants.URL);
+		new BasePage(dr);
 		excel = new ExcelUtil(Constants.UI_Test_cases_path, Constants.UI_Test_cases_sheet);
 	}
 	
@@ -45,8 +45,9 @@ public class BaseTest {
 	}
 	
 	@AfterMethod
-	public void endTestMethod(Method method) {
+	public void endTestMethod() {
 		Log.endTestCase(testMethodName);
+		Utilities.chk_LoginStatus();
 
 	}
 }
