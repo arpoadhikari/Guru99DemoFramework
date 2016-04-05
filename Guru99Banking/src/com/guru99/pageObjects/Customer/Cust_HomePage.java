@@ -35,7 +35,7 @@ public class Cust_HomePage extends BasePage{
 			alert = driver.switchTo().alert();
 			Log.info("[Cust_HomePage.java] Logout alert is found");
 			} catch (Exception e) {
-				Log.error("[Cust_HomePage.java] Logout alert is found");
+				Log.error("[Cust_HomePage.java] Logout alert is not found");
 				e.printStackTrace();	
 			}
 		return alert;

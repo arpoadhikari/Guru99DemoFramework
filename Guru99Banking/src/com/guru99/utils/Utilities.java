@@ -159,7 +159,7 @@ public class Utilities {
 	
 	// Method to check login status
 	public static String chk_LoginStatus() {
-		String user = null;
+		String user = "";
 		if (driver.getCurrentUrl().contains("manager")) {
 			user = "manager";
 		}

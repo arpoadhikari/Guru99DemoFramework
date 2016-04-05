@@ -15,6 +15,7 @@ public class Constants {
     
     // UI_TestCases sheet constants
     public static final String UI_Test_cases_path = "src\\Test Docs\\UI_TestCases.xlsx";
+    
 	public static final String UI_Test_cases_sheet = "TestCases";
     public static final int TCID_col = 0;
     public static final int TestTitle_col = 1;
@@ -24,5 +25,8 @@ public class Constants {
     public static final int RunMode_col = 5;
     public static final int Result_col = 6;
     public static final int Time_col = 7;
-	
+    
+	public static final String charSet_sheet = "CharSet";
+    public static final int charSet_col = 0;
+    public static final int spclCharSet_col = 1;
 }
