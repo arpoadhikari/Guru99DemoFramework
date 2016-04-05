@@ -157,6 +157,7 @@ public class Utilities {
 		return exp_msg;
 	}
 	
+	// Method to check login status
 	public static String chk_LoginStatus() {
 		String user = null;
 		if (driver.getCurrentUrl().contains("manager")) {
